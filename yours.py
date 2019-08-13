@@ -15,16 +15,16 @@ strict_endtimes = [today + 43800, today + 47400]
 limit_datetime = dt.datetime.strptime(str(dt.date.today()),"%Y-%m-%d") + dt.timedelta(hours=11)
 flag = False
 
+# login information
+mail = input("Enter your e-mail address : ")
+password = getpass.getpass(prompt="Password : ")
+
 # webdriver configuration
 options = Options()
 options.add_argument("--headless")
 options.add_argument("--incognito") # シークレットモード
 driver = webdriver.Chrome("ENTER YOUR CHROMEDRIVE PATH", options=options)
 driver.implicitly_wait(2) # 主に予約枠のaタグの要素が取得できるようになるまでの最大許容時間。更新頻度も兼ねている。
-
-# login information
-mail = input("Enter your e-mail address : ")
-password = getpass.getpass(prompt="Password : ")
 
 # processing
 try:
