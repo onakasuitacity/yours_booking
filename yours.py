@@ -26,7 +26,7 @@ driver.implicitly_wait(2) # 主に予約枠のaタグの要素が取得できる
 mail = input("Enter your e-mail address : ")
 password = getpass.getpass(prompt="Password : ")
 
-# 
+# processing
 try:
     # login
     driver.get("https://esp03.dt-r.com/gmo-yours/member/login.php")
