@@ -1,6 +1,7 @@
 <h1>GMO yours auto-booking</h1>
 <h2>Introduction</h2>
 <p>
+  (殆どGitHubの練習用です)<br>
   GMOインターネットグループのランチビュッフェ「<a href="https://esp03.dt-r.com/gmo-yours/">GMO yours</a>」のPythonによる当日自動予約ツールです。<br>
   <a href="http://direct-reserve.info/">Direct Reserve</a>社のサービスを利用しているため、同社提供のサービスをスクレイピングしたい方も参考になるかと思います。
 <h2>How to use</h2>
